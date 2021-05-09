@@ -64,7 +64,7 @@ void loop() {
   {
     curTime = micros();
     count = maxCount;
-
+    printCount();
   }
   else if (micros() >= curTime + 1000000) // A second has passed
   {
